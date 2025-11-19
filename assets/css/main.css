@@ -1,3 +1,176 @@
+/* --- Nicepage Team Block Font Styles --- */
+.u-section-1 .u-text-2, .u-section-1 .u-text-5, .u-section-1 .u-text-8, .u-section-1 .u-text-11, .u-section-1 .u-text-14, .u-section-1 .u-text-17 {
+	font-family: 'Oswald', 'Open Sans', Arial, sans-serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.u-section-1 .u-text-3, .u-section-1 .u-text-6, .u-section-1 .u-text-9, .u-section-1 .u-text-12, .u-section-1 .u-text-15, .u-section-1 .u-text-18 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.1rem;
+	font-weight: 700;
+	margin: 12px 0 0;
+}
+.u-section-1 .u-text-4, .u-section-1 .u-text-7, .u-section-1 .u-text-10, .u-section-1 .u-text-13, .u-section-1 .u-text-16, .u-section-1 .u-text-19 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1rem;
+	margin-top: 23px;
+	margin-bottom: 0;
+	font-weight: 300;
+	font-style: normal;
+}
+.u-section-1 .u-text-1 {
+	font-family: 'Oswald', 'Open Sans', Arial, sans-serif;
+	font-size: 2.25rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 60px auto 0;
+}
+/* --- End Nicepage Team Block Font Styles --- */
+/* --- Nicepage Team Block Styles --- */
+.u-section-1 .u-sheet-1 {
+	min-height: 1538px;
+}
+.u-section-1 .u-text-1 {
+	text-align: center;
+	margin: 60px auto 0;
+}
+.u-section-1 .u-list-1 {
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+.u-section-1 .u-repeater-1 {
+	display: grid;
+	grid-template-columns: repeat(3, 33.3333%);
+	min-height: 1178px;
+	grid-gap: 0px;
+}
+.u-section-1 .u-list-item-1, .u-section-1 .u-list-item-2, .u-section-1 .u-list-item-3, .u-section-1 .u-list-item-4, .u-section-1 .u-list-item-5 {
+	background-image: none;
+		background: #fff;
+		border-radius: 0;
+		box-shadow: none;
+		color: #2e3842;
+}
+	.u-section-1 .u-list-item-6 {
+		background: #fff;
+		border-radius: 0;
+		box-shadow: none;
+		color: #2e3842;
+	}
+.u-section-1 .u-container-layout-1, .u-section-1 .u-container-layout-2, .u-section-1 .u-container-layout-3, .u-section-1 .u-container-layout-4, .u-section-1 .u-container-layout-5 {
+	padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+}
+	.u-section-1 .u-container-layout-6 {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+.u-section-1 .u-image-1, .u-section-1 .u-image-2, .u-section-1 .u-image-3, .u-section-1 .u-image-4, .u-section-1 .u-image-5 {
+	width: 240px;
+	height: 240px;
+	background-position: 50% 50%;
+	background-size: cover;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.u-section-1 .u-text-2, .u-section-1 .u-text-5, .u-section-1 .u-text-8, .u-section-1 .u-text-11, .u-section-1 .u-text-14 {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+.u-section-1 .u-text-3, .u-section-1 .u-text-6, .u-section-1 .u-text-9, .u-section-1 .u-text-12, .u-section-1 .u-text-15 {
+	font-weight: 700;
+	margin: 12px 0 0;
+}
+.u-section-1 .u-text-4, .u-section-1 .u-text-7, .u-section-1 .u-text-10, .u-section-1 .u-text-13, .u-section-1 .u-text-16 {
+	margin-top: 23px;
+	margin-bottom: 0;
+	font-weight: 300;
+	font-style: normal;
+}
+.u-section-1 .u-social-icons-1, .u-section-1 .u-social-icons-2, .u-section-1 .u-social-icons-3, .u-section-1 .u-social-icons-4, .u-section-1 .u-social-icons-5 {
+	white-space: nowrap;
+	height: 27px;
+	min-height: 16px;
+	width: 138px;
+	min-width: 94px;
+	margin: 20px auto 0;
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+}
+	.u-section-1 .u-social-icons-6 {
+		white-space: nowrap;
+		height: 27px;
+		min-height: 16px;
+		width: 138px;
+		min-width: 94px;
+		margin: 20px auto 0;
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+	}
+	.u-section-1 .u-social-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background: #f2f2f2;
+		color: #573aba;
+		transition: background 0.2s, color 0.2s;
+		font-size: 20px;
+	}
+	.u-section-1 .u-social-icon:hover {
+		background: #573aba;
+		color: #fff;
+	}
+	.u-section-1 .u-social-facebook svg,
+	.u-section-1 .u-social-twitter svg,
+	.u-section-1 .u-social-instagram svg,
+	.u-section-1 .u-social-linkedin svg {
+		fill: currentColor;
+	}
+.u-section-1 .u-icon-1, .u-section-1 .u-icon-2, .u-section-1 .u-icon-3, .u-section-1 .u-icon-4, .u-section-1 .u-icon-5, .u-section-1 .u-icon-6, .u-section-1 .u-icon-7, .u-section-1 .u-icon-8, .u-section-1 .u-icon-9, .u-section-1 .u-icon-10, .u-section-1 .u-icon-11, .u-section-1 .u-icon-12, .u-section-1 .u-icon-13, .u-section-1 .u-icon-14, .u-section-1 .u-icon-15 {
+	height: 100%;
+}
+@media (max-width: 1199px) {
+	.u-section-1 .u-repeater-1 {
+		min-height: 972px;
+	}
+}
+@media (max-width: 991px) {
+	.u-section-1 .u-repeater-1 {
+		grid-template-columns: repeat(2, 50%);
+		min-height: 1675px;
+	}
+}
+@media (max-width: 767px) {
+	.u-section-1 .u-repeater-1 {
+		grid-template-columns: 100%;
+	}
+	.u-section-1 .u-container-layout-1,
+	.u-section-1 .u-container-layout-2,
+	.u-section-1 .u-container-layout-3,
+	.u-section-1 .u-container-layout-4,
+	.u-section-1 .u-container-layout-5 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+/* --- End Nicepage Team Block Styles --- */
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
@@ -141,7 +314,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		border-bottom: dotted 1px;
-		color: inherit;
+	/* removed accidental properties */
 		text-decoration: none;
 	}
 
@@ -164,7 +337,6 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
-		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2133,6 +2305,168 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	/* Team member modern cards */
+
+	.row.team-grid {
+		/* Grid-based team layout modeled after Nicepage example */
+		display: grid !important;
+		grid-template-columns: repeat(4, 1fr);
+		grid-auto-rows: auto;
+		gap: 2.25rem;
+		align-items: start;
+	}
+
+	.team-member {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		border: none;
+		border-radius: 14px;
+		background: linear-gradient(180deg, #ffffff 0%, #fbfbfb 100%);
+		box-shadow: 0 14px 36px rgba(16, 24, 32, 0.06);
+		padding: 5rem 1.75rem 1.75rem 1.75rem;
+		transition: transform 0.22s cubic-bezier(.2,.9,.2,1), box-shadow 0.22s ease;
+		min-height: 20rem;
+		margin-bottom: 1.25rem;
+	}
+
+	.team-member:hover {
+	    transform: translateY(-8px);
+	    box-shadow: 0 24px 60px rgba(16, 24, 32, 0.12);
+	}
+
+	.team-member:hover .team-photo {
+		border-color: #ed4933;
+		box-shadow: 0 14px 38px rgba(237,73,51,0.08);
+	}
+
+	.team-photo {
+		position: absolute;
+		left: 50%;
+		top: -70px;
+		transform: translateX(-50%);
+	width: 160px;
+	height: 160px;
+		border-radius: 50%;
+		overflow: hidden;
+		border: 8px solid #ffffff;
+		box-shadow: 0 10px 28px rgba(16, 24, 32, 0.12);
+		background: #ffffff;
+	}
+
+	.team-photo img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	/* overlay + social icons inside the circular photo */
+	.team-photo .overlay {
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		background: linear-gradient(180deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.18) 100%);
+		opacity: 0;
+		transition: opacity 0.18s ease;
+		border-radius: 50%;
+	}
+
+	.team-member:hover .team-photo .overlay {
+		opacity: 1;
+	}
+
+	.team-photo .overlay a {
+		color: #fff;
+		display: inline-flex;
+		width: 36px; height: 36px;
+		align-items: center; justify-content: center;
+		background: rgba(0,0,0,0.35);
+		border-radius: 50%;
+		margin: 0 6px;
+	}
+
+	.team-content {
+		padding-top: 1.5rem;
+	}
+
+	.team-member .team-content p { 
+		color: #666; 
+		text-align: left; 
+		font-size: 0.95em;
+		line-height: 1.6em;
+		margin-bottom: 0.95rem;
+}
+
+.team-member .team-content h4 { 
+		text-align: center;
+}
+
+.icons.social {
+	display: flex;
+	justify-content: center;
+	gap: 0.6rem;
+	margin-top: 0.6rem;
+}
+
+.icons.social li { margin: 0; }
+
+.icons.social a.icon {
+	width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%;
+	background: #21b2a6; color: #fff; box-shadow: 0 6px 18px rgba(16,24,32,0.08);
+}
+
+.icons.social a.icon:hover { background: #1b9f8f; }
+
+	.team-member h4 {
+		margin-top: 0.6rem;
+		margin-bottom: 0.35rem;
+		font-size: 1.15em;
+		font-weight: 700;
+		color: #2E3842;
+	}
+
+	.team-member h4:after {
+		content: '';
+		display: block;
+		height: 3px;
+		width: 48px;
+		background: linear-gradient(90deg,#21b2a6,#ed4933);
+		margin: 8px auto 0 auto;
+		border-radius: 2px;
+	}
+
+	.team-member .role {
+		color: #21b2a6;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		font-size: 0.85em;
+		margin-bottom: 0.85rem;
+	}
+
+@media screen and (max-width: 1280px) {
+	.row.team-grid { gap: 1.75rem; }
+}
+
+	@media screen and (max-width: 980px) {
+		.row.team-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 1.5rem;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		.row.team-grid {
+			grid-template-columns: repeat(1, 1fr);
+			gap: 1rem;
+		}
+	}
+
 /* List */
 
 	ol {
@@ -3411,7 +3745,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+
 			width: 7em;
 		}
 
