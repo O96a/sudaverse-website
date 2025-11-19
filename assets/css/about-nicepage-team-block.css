@@ -43,7 +43,11 @@
 .u-section-1 .u-list-item-3,
 .u-section-1 .u-list-item-4,
 .u-section-1 .u-list-item-5,
-.u-section-1 .u-list-item-6 {
+.u-section-1 .u-list-item-6,
+.u-section-1 .u-list-item-7,
+.u-section-1 .u-list-item-8,
+.u-section-1 .u-list-item-9,
+.u-section-1 .u-list-item-10 {
   background-image: none;
   background-color: #ffffff;
   border-radius: 0;
@@ -56,7 +60,11 @@
 .u-section-1 .u-container-layout-3,
 .u-section-1 .u-container-layout-4,
 .u-section-1 .u-container-layout-5,
-.u-section-1 .u-container-layout-6 {
+.u-section-1 .u-container-layout-6,
+.u-section-1 .u-container-layout-7,
+.u-section-1 .u-container-layout-8,
+.u-section-1 .u-container-layout-9,
+.u-section-1 .u-container-layout-10 {
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -70,7 +78,11 @@
 .u-section-1 .u-image-3,
 .u-section-1 .u-image-4,
 .u-section-1 .u-image-5,
-.u-section-1 .u-image-6 {
+.u-section-1 .u-image-6,
+.u-section-1 .u-image-7,
+.u-section-1 .u-image-8,
+.u-section-1 .u-image-9,
+.u-section-1 .u-image-10 {
   width: 240px;
   height: 240px;
   background-position: 50% 50%;
@@ -105,21 +117,43 @@
   background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/460597/images/6.jpg");
 }
 
-/* Names - Oswald Font, Uppercase, 1.5rem */
+.u-section-1 .u-image-7 {
+  background-image: url("../../../images/mohamed-altayeb.png");
+}
+
+.u-section-1 .u-image-8 {
+  background-image: url("../../../images/mohammad-hassan.png");
+}
+
+.u-section-1 .u-image-9 {
+  background-image: url("../../../images/mohammed-elmustafa.png");
+}
+
+.u-section-1 .u-image-10 {
+  background-image: url("../../../images/mustafa-gafer.png");
+}
+
+/* Names - Oswald Font, Uppercase, 1rem */
 .u-section-1 .u-text-2,
 .u-section-1 .u-text-5,
 .u-section-1 .u-text-8,
 .u-section-1 .u-text-11,
 .u-section-1 .u-text-14,
-.u-section-1 .u-text-17 {
+.u-section-1 .u-text-17,
+.u-section-1 .u-text-20,
+.u-section-1 .u-text-23,
+.u-section-1 .u-text-26,
+.u-section-1 .u-text-29 {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 0;
   color: #111111;
   text-align: center;
+  white-space: nowrap;
+  line-height: 1.2;
 }
 
 /* Titles/Positions - Open Sans, Bold, Purple Color */
@@ -128,7 +162,11 @@
 .u-section-1 .u-text-9,
 .u-section-1 .u-text-12,
 .u-section-1 .u-text-15,
-.u-section-1 .u-text-18 {
+.u-section-1 .u-text-18,
+.u-section-1 .u-text-21,
+.u-section-1 .u-text-24,
+.u-section-1 .u-text-27,
+.u-section-1 .u-text-30 {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -143,7 +181,11 @@
 .u-section-1 .u-text-10,
 .u-section-1 .u-text-13,
 .u-section-1 .u-text-16,
-.u-section-1 .u-text-19 {
+.u-section-1 .u-text-19,
+.u-section-1 .u-text-22,
+.u-section-1 .u-text-25,
+.u-section-1 .u-text-28,
+.u-section-1 .u-text-31 {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1rem;
   margin-top: 23px;
@@ -161,12 +203,16 @@
 .u-section-1 .u-social-icons-3,
 .u-section-1 .u-social-icons-4,
 .u-section-1 .u-social-icons-5,
-.u-section-1 .u-social-icons-6 {
+.u-section-1 .u-social-icons-6,
+.u-section-1 .u-social-icons-7,
+.u-section-1 .u-social-icons-8,
+.u-section-1 .u-social-icons-9,
+.u-section-1 .u-social-icons-10 {
   white-space: nowrap;
-  height: 27px;
-  min-height: 16px;
-  width: 138px;
-  min-width: 94px;
+  height: 20px;
+  min-height: 20px;
+  width: auto;
+  min-width: auto;
   margin: 20px auto 0;
   display: flex;
   justify-content: center;
@@ -183,8 +229,15 @@
 /* Individual Social Icons */
 .u-section-1 .u-icon {
   display: inline-block;
-  width: 27px;
-  height: 27px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Force consistent social icon size for this section (override conflicts) */
+.u-section-1 .u-social-icon,
+.u-section-1 .u-icon {
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .u-section-1 .u-icon-circle {
@@ -207,6 +260,15 @@
   width: 100%;
   height: 100%;
   fill: #000000;
+}
+
+/* LinkedIn Icon - inherit parent color (allow currentColor) */
+.u-section-1 .u-social-linkedin svg path {
+  fill: currentColor !important;
+}
+
+.u-section-1 .u-social-linkedin:hover svg path {
+  fill: currentColor !important;
 }
 
 /* Specific icon sizes */
@@ -233,12 +295,16 @@
 .u-section-1 .u-icon-21,
 .u-section-1 .u-icon-22,
 .u-section-1 .u-icon-23,
-.u-section-1 .u-icon-24 {
+.u-section-1 .u-icon-24,
+.u-section-1 .u-icon-25,
+.u-section-1 .u-icon-26,
+.u-section-1 .u-icon-27,
+.u-section-1 .u-icon-28 {
   height: 100%;
 }
 
-/* Footer Attribution Text */
-.u-section-1 .u-text-20 {
+/* Footer Attribution Text (renamed to avoid conflict with team name class .u-text-20) */
+.u-section-1 .u-text-attribution {
   font-style: normal;
   text-align: center;
   margin: 36px auto 60px;
@@ -287,7 +353,11 @@
   .u-section-1 .u-container-layout-3,
   .u-section-1 .u-container-layout-4,
   .u-section-1 .u-container-layout-5,
-  .u-section-1 .u-container-layout-6 {
+  .u-section-1 .u-container-layout-6,
+  .u-section-1 .u-container-layout-7,
+  .u-section-1 .u-container-layout-8,
+  .u-section-1 .u-container-layout-9,
+  .u-section-1 .u-container-layout-10 {
     padding-left: 10px;
     padding-right: 10px;
   }
